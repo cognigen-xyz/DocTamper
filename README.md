@@ -17,3 +17,18 @@ Open Source Scheme: <br>
 
 Any question about this work please contact 202221012612@mail.scut.edu.cn.
 
+# DocTamper dataset
+
+Dear researcher,
+
+
+Thank you for your attention. the password of the dataset is IntSig_DLVC_411
+
+
+After unrar, the resulting .mdb files should be opened by Python scripts:
+
+To visualize the images and their corresponding ground-truths from the provided .mdb files, you can run the command like "python vizlmdb.py --input DocTamperV1-FCD --i 0". The vizlmdb.py is https://github.com/qcf-568/DocTamper/blob/main/vizlmdb.py The dataloader for training or inference can be refered to Line43~Line107 of https://github.com/qcf-568/DocTamper/blob/main/models/eval_dtd.py To run the eval_dtd.py, you can refer to this Colab Notebook https://colab.research.google.com/drive/1rWaSKy2Rsy5welyvj6FbzF01o2zv8ips?usp=sharing Kind Regards,
+
+Chenfan Qu
+
+
